@@ -8,7 +8,7 @@ for whatever user you want to use to connect to the database.
 - Clone this repository using `git clone https://github.com/dodumosu/stunning-engine.git` into a local directory.
 - Change into the directory for your local copy from the previous step.
 - Create a file named `.env` in the directory. In it, create the `DATABASE_URL` setting and set it to the connection string like you can find [here](https://stackoverflow.com/questions/3582552/what-is-the-format-for-the-postgresql-connection-string-url).
-For example: `DATABASE_URL=postgresql://username:password@localhost/localdb`.
+For example: `DATABASE_URL=postgresql://username:password@localhost/localdb`. An example is in the `.env-template` file.
 - Run a Node REPL from the repository directory. In it, run the following code:
     ```js
     const pool = require('./src/database/connection');
